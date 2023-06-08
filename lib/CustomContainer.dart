@@ -18,6 +18,8 @@ class _CustomContainerState extends State<CustomContainer> {
         });
       },
       child: AnimatedContainer(
+        width: 300,
+        height: 300,
         duration: const Duration(milliseconds: 200),
         curve: Curves.easeInOut,
         decoration: BoxDecoration(
@@ -39,6 +41,6 @@ class _CustomContainerState extends State<CustomContainer> {
           child: const Text('Featured!'),
         ),
       ),
-    );();
+    );
   }
 }

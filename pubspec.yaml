@@ -1,7 +1,7 @@
 name: demo_pkg
 description: A new Flutter package project.
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: 'https://github.com/dhavalazure/pkg_demo'
 
 environment:
   sdk: '>=3.0.2 <4.0.0'
