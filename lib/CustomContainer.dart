@@ -20,7 +20,7 @@ class _CustomContainerState extends State<CustomContainer> {
       child: AnimatedContainer(
         width: 300,
         height: 300,
-        duration: const Duration(milliseconds: 200),
+        duration: const Duration(milliseconds: 2),
         curve: Curves.easeInOut,
         decoration: BoxDecoration(
           color: selectedItemIndex == 1 ? Colors.yellow : Colors.pink,
@@ -32,7 +32,7 @@ class _CustomContainerState extends State<CustomContainer> {
           ),
         ),
         child: AnimatedDefaultTextStyle(
-          duration: const Duration(milliseconds: 200),
+          duration: const Duration(milliseconds: 2),
           style: TextStyle(
             color: selectedItemIndex == 1
                 ? Colors.black

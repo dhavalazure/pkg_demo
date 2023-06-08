@@ -1,3 +1,3 @@
-## 0.0.2
+## 0.0.3
 
--- Fixed Container not visible issue
+-- Changed animation duration
